@@ -1,8 +1,8 @@
 import express, { Router } from "express";
-import { createUser } from "../Controllers/users";
+import { createOrder } from "../Controllers/orders";
 
 const routes: Router = express.Router();
 
-routes.get("/create", createUser);
+routes.get("/create", createOrder);
 
 export default routes;
