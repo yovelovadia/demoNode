@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "tsc": "tsc",
-    "start": "nodemon server.ts"
+    "start": "nodemon server.ts",
+    "createModule":"cd Scripts && python createModule.py "
   },
   "dependencies": {
     "dotenv": "8.2.0",
-    "express": "4.16.1"
+    "express": "4.16.1",
+    "mongodb": "3.6.5",
+    "mongoose": "5.12.1"
   },
   "devDependencies": {
     "@types/express": "4.17.9",
